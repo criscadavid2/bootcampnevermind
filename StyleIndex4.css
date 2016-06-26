@@ -1,0 +1,29 @@
+.body {
+	font-family: helvetica;
+	font-size: 16px ;
+	line-height: 1.5px;
+	background-color: #edeff0;
+
+}
+
+.p {
+	font-size: 16px;
+	color: #b2bac2;
+	padding: 10px 10px 10px 10px;
+}
+
+.title1 {
+	font-size: 30px; 
+	color: #384047;
+	padding: 10px 10px 10px 10px;
+}
+
+.title2 {
+	font-size: 18px; 
+	color: #384047;
+	padding: 10px 10px 10px 10px;
+}
+
+.p2 {
+	font-size: 18px;
+	padding: 10px 10px 10px 10px;
