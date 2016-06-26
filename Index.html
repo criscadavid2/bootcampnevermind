@@ -1,65 +1,161 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styleindex6.css">
 
 
-	<link rel="stylesheet" type="text/css" href="StyleIndex4.css">
-	<title>Welcome Home</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+
+
+    <title>Mis finanzas</title>
 </head>
-<body class="jumbotron">
-<div class="container"; style= "background-color: white">
-  
-<!-- Empieza parte 1 -->
+<body>
+<!-- Barra de Navegación Inicio -->
 
-	<p class="title1"> <b>Welcome Home</b> </p> 
-
-  <p class="p">orem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
-<br>
-<br>
-<!-- Termina Parte 1 -->
-
-<!-- Empieza parte 2 -->
-
-<table>
-<thead>
-
-<!-- Titulos -->
-	<th>
-	<p class="title2"> <b>Youŕe currently On Track</b> </p> 
-	</th>
-
-	<th>
-	<p class="title2"> <b>Using Home</b> </p> 
-	</th>
+<nav class="navbar navbar-inverse " role="navigation ">
 
 
+    <!-- El logotipo y el icono que despliega el menú se agrupan
+         para mostrarlos mejor en los dispositivos móviles -->
 
-</thead>
-	<!-- Textos -->
-	<td>
-	<p class="p">Si bien las distribuciones Linux hacen cada vez más completas y funcionales sus GUI (del inglés graphical user interface), la terminal siempre ha estado y estará allí para ayudarte y no lo contrario, como quizá hayas pensado. De hecho, en algunas distribuciones es el primer contacto entre el usuario y el sistema.</p>
-<br>
-<!-- Bton texto1 -->
-<p class="p2"><button type="button" class="btn btn-success"><b>Resume Track<b></button>
-</p>
-	</td>
 
-	<td>
-	<p class="p">Si bien las distribuciones Linux hacen cada vez más completas y funcionales sus GUI (del inglés graphical user interface), la terminal siempre ha estado y estará allí para ayudarte y no lo contrario, como quizá hayas pensado. De hecho, en algunas distribuciones es el primer contacto entre el usuario y el sistema.</p>
-	
-	<!-- Bton texto2 -->
-	<p class="p2"><button type="button" class="btn btn-primary"><b>Start Tour<b></button>
-	</p>
-	
-	</td>
-</table>
+    <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+         otro elemento que se pueda ocultar al minimizar la barra -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse "
+    ">
+    <ul class="nav navbar-nav">
+        <li><a href="#">mis<b>finanzas</b></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-eye-open"></span>Resumen</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span>Transacciones</a></li>
+    </ul>
+
+
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Salir</a></li>
+    </ul>
+
+
+</nav>
+<!-- Barra de Navegación Final -->
+
+<!-- Inicia Barra Izquierda -->
+
+<div style="margin: 3px; "> <!-- Div general despues de la barra -->
+
+
 </div>
+
+<div id="todo-despues-de-la-barra">
+
+
+    <div id="sidebar">
+        <div class="input-group" style="width:;">
+            <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+              </span>
+        </div><!-- /input-group -->
+        <br/>
+
+        <div class="list-group ">
+            <a class="list-group-item" href="#">Ingresos</a>
+            <a class="list-group-item" href="#">Gastos</a>
+
+        </div>
+
+        <div class="list-group">
+            <a class="list-group-item" href="#">Restaurantes</a>
+            <a class="list-group-item" href="#">Hogar</a>
+            <a class="list-group-item" href="#">Diversión</a>
+            <a class="list-group-item" href="#">Viajes</a>
+            <a class="list-group-item" href="#">Carro</a>
+        </div>
+    </div>
+  
+
+    <div id="contenido">
+        <div class="boton-superior" style="width: 70%; margin-left:20px; margin-bottom:20px;"><button type="button" class="btn btn-primary">+Nueva Transaccion</button></div>
+        <div class="boton-superior" style="width: 30%; margin-left:-20px; text-align: right">
+            
+            <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Agosto 2014 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Julio 2014</a></li>
+    <li><a href="#">Septiembre 2014</a></li>
+    <li><a href="#">Octubre 2014</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+
+        </div>
+
+
+        <table class="table" style="margin-left:20px; width: 98%;">
+            <tr>
+                <td class="Estilofecha" style="width:6%; text-align: center;";><p>Ago</p>  <p style="font-size:25px; margin-top: -20px; margin-bottom: -5px; ">26</p></td>
+                <td> <p class="Estilofecha">Gasto <button type="button" class="botonAzul" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Hogar</button></p>  <p style="font-size:25px; margin-top: -20px; margin-bottom: -5px; ">Arriendo</p></td>
+                
+                <td class="Estilofecha" style="text-align: right; color: grey;"><p>Valor</p>
+                <p style="margin-top: -15px; margin-bottom: -5px; "><span style="padding:5px; font-size:13px;" class="glyphicon glyphicon-pencil"></span>accion1  <span style="padding:5px; font-size:13px;" class="glyphicon glyphicon-pencil"></span>accion2</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="Estilofecha" style="width:6%; text-align: center;";><p>Ago</p>  <p style="font-size:25px; margin-top: -20px; margin-bottom: -5px; ">25</p></td>
+                <td > <p class="Estilofecha">Gasto <button type="button" class="botonAzul" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Restaurante</button> </p>  <p style="font-size:25px; margin-top: -20px; margin-bottom: -5px; ">El Rincón de mi tierra</p></td>
+                
+                <td class="Estilofecha" style="text-align: right; color: grey;"><p>Valor</p>
+                <p style="margin-top: -15px; margin-bottom: -5px; "><span style="padding:5px; font-size:13px;" class="glyphicon glyphicon-pencil"></span>accion1  <span style="padding:5px; font-size:13px;" class="glyphicon glyphicon-pencil"></span>accion2</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Fecha</td>
+                <td>Nombre</td>
+                <td>Valor</td>
+            </tr>
+        </table>
+
+
+    </div>
+
+</div>
+
+
+
+
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+    
+
