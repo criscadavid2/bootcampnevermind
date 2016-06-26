@@ -1,0 +1,37 @@
+.body{
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #333;
+	line-height: 1.6px;
+
+}
+
+.head{
+	border-style: solid;
+    border-bottom: 1px solid #ddd;
+	background-color: whitesmoke
+}
+.fondotrailers {
+	background-color: whitesmoke;
+
+ }
+
+
+.square2 {
+	
+	
+	margin: 10px;
+	border: 1px solid whitesmoke;
+	display: inline-block;
+	background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+}
+
+.fecha {
+	color: grey;
+
+
+}
+
+
